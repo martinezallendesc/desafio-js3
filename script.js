@@ -1,4 +1,4 @@
-/*MÉTODO 1
+
 
 //Azul
 
@@ -32,8 +32,3 @@ cuadradoAmarillo.style.backgroundColor = color;
 }
 
 const btnAmarillo = cuadradoAmarillo.addEventListener("click", pintar);
-
-*/
-
-
-
