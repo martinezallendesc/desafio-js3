@@ -1,5 +1,5 @@
 
-
+/*
 //Azul
 
 function pintarazul(color){
@@ -32,3 +32,28 @@ cuadradoAmarillo.style.backgroundColor = color;
 }
 
 const btnAmarillo = cuadradoAmarillo.addEventListener("click", pintar);
+
+*/
+
+
+// const pintar = (elemento) =>  {
+//elemento.style.backgroundColor = "black";
+//}
+
+function pintar(elemento) {
+    elemento.style.backgroundColor = 'black';
+    console.log(elemento)
+}
+
+const cuadrado1 = document.getElementById('azul');
+cuadrado1.addEventListener("click", () => pintar(cuadrado1));
+
+const cuadrado2 = document.getElementById('rojo');
+cuadrado2.addEventListener('click',  () => pintar(cuadrado2));
+
+const cuadrado3 = document.getElementById('verde');
+cuadrado3.addEventListener('click',  () => pintar(cuadrado3));
+
+const cuadrado4 = document.getElementById('amarillo');
+cuadrado4.addEventListener('click',  () => pintar(cuadrado4));
+
